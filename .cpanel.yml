@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - chmod 644 css/style.css
+    - chmod 644 js/main.js
+    - chmod 755 images/
+    - chmod 644 index.html
