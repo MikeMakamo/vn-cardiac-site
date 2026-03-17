@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VN Cardiac Diagnostics — Advanced Heart Care</title>
+  <meta name="description" content="Advanced mobile cardiac diagnostics across Lower KwaZulu-Natal. Holter monitoring, echocardiography, ECG stress tests, and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <div class="container">
+    <a href="#" class="nav-logo">
+      <img src="images/logo.png" alt="VN Cardiac Diagnostics">
+      <div class="nav-logo-text">
+        <span class="nav-logo-name"><span>Veli</span> Ntshangase</span>
+        <span class="nav-logo-title">Diagnostic Cardiac Technologist</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:0833947862" class="nav-cta">Book Now</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" onclick="toggleMobileNav()">&times;</button>
+  <a href="#about" onclick="toggleMobileNav()">About</a>
+  <a href="#services" onclick="toggleMobileNav()">Services</a>
+  <a href="#mission" onclick="toggleMobileNav()">Mission</a>
+  <a href="#contact" onclick="toggleMobileNav()">Contact</a>
+  <a href="tel:0833947862" onclick="toggleMobileNav()">Book Now</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-tag">Diagnostic Cardiac Technology</div>
+        <h1>Where Every <em>Heartbeat</em> Matters</h1>
+        <p class="hero-description">Advanced mobile cardiac diagnostics across Lower KwaZulu-Natal. State-of-the-art assessments for early detection, precise diagnosis, and better heart health outcomes.</p>
+        <div class="hero-buttons">
+          <a href="tel:0833947862" class="btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Schedule Assessment
+          </a>
+          <a href="#services" class="btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            Our Services
+          </a>
+        </div>
+        <div class="hero-stat-strip">
+          <div class="hero-stat"><h4>10<span>+</span></h4><p>Years Experience</p></div>
+          <div class="hero-stat"><h4>7<span>+</span></h4><p>Diagnostic Services</p></div>
+          <div class="hero-stat"><h4>2</h4><p>Facility Locations</p></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="heartbeat-container">
+          <div class="heartbeat-ring"></div>
+          <div class="heartbeat-ring"></div>
+          <div class="heartbeat-ring"></div>
+          <svg class="heartbeat-svg" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="ecg-line" d="M0 100 L60 100 L80 100 L100 90 L110 100 L130 100 L145 100 L155 40 L165 160 L175 70 L185 100 L210 100 L230 95 L250 100 L280 100 L300 100 L320 90 L330 100 L350 100 L370 100 L400 100"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrapper reveal">
+        <div class="about-image">
+        <img src="images/Doctorpicture.jpg" alt="Veli Ntshangase performing echocardiography">
+        </div>
+        <div class="about-badge"><h4>2016</h4><p>HPCSA Registered</p></div>
+      </div>
+      <div class="about-content">
+        <div class="section-tag reveal">About the Founder</div>
+        <h2 class="section-heading reveal reveal-delay-1">Meet <em>Veli Ntshangase</em></h2>
+        <p class="about-text reveal reveal-delay-2">An accomplished Diagnostic Cardiac Technologist who graduated with distinction from Durban University of Technology. Veli's journey was deeply personal — inspired by witnessing his grandfather's struggle with undiagnosed heart disease, he dedicated his career to ensuring communities have access to quality cardiac care.</p>
+        <p class="about-text reveal reveal-delay-2">After years of hands-on training and mastering diagnostic machines, Veli founded VN Cardiac Diagnostics to bring mobile cardiac services directly to underserved areas of Lower KwaZulu-Natal.</p>
+        <div class="about-credentials reveal reveal-delay-3">
+          <div class="credential">
+            <div class="credential-icon"><svg viewBox="0 0 24 24"><path d="M12 2L15 8.5L22 9.3L17 14L18.2 21L12 17.5L5.8 21L7 14L2 9.3L9 8.5L12 2Z"/></svg></div>
+            <div class="credential-text"><h5>N. Dip & B.Tech in Clinical Technology</h5><p>Durban University of Technology — Graduated with Distinction</p></div>
+          </div>
+          <div class="credential">
+            <div class="credential-icon"><svg viewBox="0 0 24 24"><path d="M9 12L11 14L15 10M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+            <div class="credential-text"><h5>HPCSA Registered — KTG 0004170</h5><p>Practice No: 0816116</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="services-header">
+      <div class="section-tag reveal">What We Offer</div>
+      <h2 class="section-heading reveal reveal-delay-1">Comprehensive Cardiac &<br>Respiratory Diagnostics</h2>
+      <p class="section-subtext reveal reveal-delay-2">Advanced, non-invasive assessments using cutting-edge equipment for accurate diagnosis and effective patient care.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <h3>Holter Monitoring</h3>
+        <p>24-hour continuous portable heart rhythm recording to detect arrhythmias and other cardiac irregularities in daily life.</p>
+        <span class="service-tag">Cardiac</span>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <h3>Echocardiography</h3>
+        <p>Non-invasive ultrasound imaging providing detailed views of the heart's structure, valves, and function for precise diagnosis.</p>
+        <span class="service-tag">Cardiac</span>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0110 10c0 5.523-4.477 10-10 10S2 17.523 2 12"/><path d="M12 6v6"/><circle cx="12" cy="12" r="1"/></svg></div>
+        <h3>Blood Pressure Monitoring</h3>
+        <p>24-hour ambulatory blood pressure measurement for diagnosing and managing hypertension and related conditions.</p>
+        <span class="service-tag">Cardiac</span>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M4.5 12.5l3-3 3 3 5-5 3 3"/><rect x="2" y="3" width="20" height="18" rx="2"/></svg></div>
+        <h3>ECG / Exercise Stress Test</h3>
+        <p>Measuring the heart's electrical activity at rest and during physical exertion to evaluate cardiovascular response.</p>
+        <span class="service-tag">Cardiac</span>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 22C17 22 21 18 21 12C21 6 17 2 12 2C7 2 3 6 3 12"/><path d="M8 12h8M12 8v8"/></svg></div>
+        <h3>Spirometry</h3>
+        <p>Evaluating lung capacity and airflow to screen for COPD, asthma, and other respiratory conditions.</p>
+        <span class="service-tag">Respiratory</span>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></div>
+        <h3>Lung Volume & Diffusion</h3>
+        <p>Precise assessment of total lung volume and oxygen transfer efficiency for comprehensive respiratory evaluation.</p>
+        <span class="service-tag">Respiratory</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION / VISION -->
+<section class="mission-vision" id="mission">
+  <div class="container">
+    <div class="mv-grid">
+      <div class="mv-card mission-card reveal">
+        <div class="mv-label">Our Mission</div>
+        <h3>Making Advanced Cardiac Care Accessible</h3>
+        <p>To deliver advanced cardiac diagnostic services across Lower KwaZulu-Natal, facilitating early diagnosis and timely treatment for individuals affected by heart disease. Based at Shelly Beach, with services extending to Kokstad Medical Centre every Wednesday and Friday.</p>
+      </div>
+      <div class="mv-card vision-card reveal reveal-delay-2">
+        <div class="mv-label">Our Vision</div>
+        <h3>Revolutionizing Heart Care Through Innovation</h3>
+        <p>To be the forefront provider of accessible, state-of-the-art mobile cardiac diagnostic services, revolutionizing cardiac care through innovation, expertise, and patient-centric approaches across communities that need it most.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="locations" id="contact">
+  <div class="container">
+    <div class="section-tag reveal">Find Us</div>
+    <h2 class="section-heading reveal reveal-delay-1">Locations & Contact</h2>
+    <div class="locations-grid">
+      <div>
+        <div class="location-card reveal">
+          <div class="loc-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 10-16 0c0 3 2.7 7 8 11.7z"/></svg>
+            Primary Location
+          </div>
+          <h3>Shelly Beach Hospital</h3>
+          <div class="loc-detail">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Lot 2489, Flamingo Rd, Shelly Beach Hospital, 4265<br>Doctors Suites, 1st Floor Suite 9</span>
+          </div>
+          <div class="loc-detail" style="margin-top:.5rem">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span>Monday — Friday</span>
+          </div>
+        </div>
+        <div class="location-card reveal reveal-delay-1">
+          <div class="loc-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 10-16 0c0 3 2.7 7 8 11.7z"/></svg>
+            Satellite Location
+          </div>
+          <h3>Kokstad Medical Centre</h3>
+          <div class="loc-detail">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span>Every Wednesday & Friday</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-sidebar reveal reveal-delay-2">
+        <h3>Get in Touch</h3>
+        <div class="contact-item">
+          <div class="contact-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.11 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div><div class="contact-label">Telephone</div><div class="contact-value">039 310 1233</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.11 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div><div class="contact-label">Mobile</div><div class="contact-value">083 947 8623</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="contact-label">Email</div><div class="contact-value">velicardiac24@gmail.com</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section class="photo-gallery">
+  <div class="container">
+    <div class="section-tag reveal">In Action</div>
+    <h2 class="section-heading reveal reveal-delay-1">Our Diagnostics at Work</h2>
+    <div class="photo-gallery-grid">
+      <div class="photo-gallery-card reveal">
+        <img src="images/hero-ecg.png" alt="Exercise Stress Test">
+        <div class="gallery-caption"><h4>Exercise Stress Test</h4><p>Evaluating cardiac response under physical exertion</p></div>
+      </div>
+      <div class="photo-gallery-card reveal reveal-delay-2">
+        <img src="images/hero-echo.png" alt="Echocardiography">
+        <div class="gallery-caption"><h4>Echocardiography</h4><p>Detailed ultrasound imaging of heart structure and function</p></div>
+      </div> <div class="photo-gallery-card reveal reveal-delay-2">
+        <img src="images/tent-Stand.jpg" alt="Echocardiography">
+        <div class="gallery-caption"><h4>Details Here</h4><p>Brief Description<br>Brief description</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content reveal">
+      <h2>Your Heart Deserves<br><em>Expert Attention</em></h2>
+      <p>Don't wait for symptoms to become serious. Book a comprehensive cardiac assessment with Veli Ntshangase today.</p>
+      <a href="tel:0833947862" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call 083 947 8623
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <a href="#" class="footer-brand">
+        <img src="images/logo.png" alt="VN Cardiac">
+        <span>VN Cardiac Diagnostics</span>
+      </a>
+      <div class="footer-text">
+        <div>&copy; 2026 VN Cardiac Diagnostics. All rights reserved.</div>
+        <div><a href="https://macmotech.co.za" target="_blank" rel="noopener noreferrer">Powered by MacmotechZA</a></div>
+      </div>
+      <div class="footer-reg">HPCSA Reg: KTG 0004170<br>Practice No: 0816116</div>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/27833947862" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Chat with us on WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" aria-label="Reddish WhatsApp icon">
+  <defs>
+    <linearGradient id="waRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#c62828"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer circle -->
+  <circle cx="256" cy="256" r="230" fill="url(#waRed)"/>
+
+  <!-- WhatsApp bubble -->
+  <path
+    fill="#ffffff"
+    d="M256 116c-76.1 0-138 61.9-138 138 0 24.3 6.4 48.1 18.5 69l-20.1 73.5 75.4-19.7c19.8 10.8 42.1 16.5 64.2 16.5h.1c76.1 0 138-61.9 138-138S332.1 116 256 116zm0 251.2c-19.3 0-38.2-5.2-54.7-15l-3.9-2.3-44.8 11.7 11.9-43.7-2.5-4.1c-11.7-18.5-17.8-39.9-17.8-61.8 0-61.6 50.1-111.8 111.8-111.8S367.8 190.4 367.8 252 317.6 367.2 256 367.2z"
+  />
+
+  <!-- Phone handset -->
+  <path
+    fill="#ffffff"
+    d="M315.7 287.7c-3.3-1.7-19.4-9.6-22.4-10.7-3-1.1-5.2-1.7-7.4 1.7-2.2 3.3-8.5 10.7-10.5 12.9-1.9 2.2-3.9 2.5-7.2.8-19.5-9.8-32.3-17.5-45-39.6-3.4-5.8 3.4-5.4 9.7-18.1 1.1-2.2.6-4.1-.3-5.8-.8-1.7-7.4-17.8-10.2-24.4-2.7-6.4-5.5-5.5-7.4-5.6-1.9-.1-4.1-.1-6.3-.1s-5.8.8-8.8 4.1c-3 3.3-11.6 11.3-11.6 27.5s11.9 31.8 13.6 34c1.7 2.2 23.4 35.7 56.7 50 21.1 9.1 29.4 9.9 40 8.3 6.5-1 19.4-7.9 22.2-15.5 2.7-7.5 2.7-14 1.9-15.4-.8-1.4-3-2.2-6.3-3.9z"
+  />
+</svg>
+  <span class="whatsapp-text">Chat</span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
