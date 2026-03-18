@@ -28,6 +28,15 @@
       <li><a href="#services">Services</a></li>
       <li><a href="#mission">Mission</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="theme-icon theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+        <svg class="theme-icon theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button></li>
       <li><a href="tel:0833947862" class="nav-cta">Book Now</a></li>
     </ul>
     <button class="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
@@ -39,6 +48,15 @@
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
   <button class="mobile-nav-close" onclick="toggleMobileNav()">&times;</button>
+  <button id="theme-toggle-mobile" class="theme-toggle" aria-label="Toggle theme">
+    <svg class="theme-icon theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+    <svg class="theme-icon theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </button>
   <a href="#about" onclick="toggleMobileNav()">About</a>
   <a href="#services" onclick="toggleMobileNav()">Services</a>
   <a href="#mission" onclick="toggleMobileNav()">Mission</a>

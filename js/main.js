@@ -1,3 +1,22 @@
+// Theme toggle
+const themeToggle = document.getElementById('theme-toggle');
+const themeToggleMobile = document.getElementById('theme-toggle-mobile');
+const html = document.documentElement;
+
+// Check for saved theme preference or default to light mode
+const currentTheme = localStorage.getItem('theme') || 'light';
+html.setAttribute('data-theme', currentTheme === 'dark' ? 'dark' : '');
+
+function toggleTheme() {
+  const currentTheme = html.getAttribute('data-theme');
+  const newTheme = currentTheme === 'dark' ? '' : 'dark';
+  html.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme === 'dark' ? 'dark' : 'light');
+}
+
+themeToggle.addEventListener('click', toggleTheme);
+themeToggleMobile.addEventListener('click', toggleTheme);
+
 // Scroll nav
 const nav = document.getElementById('mainNav');
 window.addEventListener('scroll', function () {
